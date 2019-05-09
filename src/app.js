@@ -1,11 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const config = require('./config');
 const app = express();
 
 // Conecta ao banco
-const uri = 'mongodb://localhost:27017/db_store_example';
-mongoose.connect(uri, {
+mongoose.connect(config.connectionString, {
     useCreateIndex: true,
     useNewUrlParser: true
 });

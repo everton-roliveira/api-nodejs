@@ -46,12 +46,12 @@ exports.put = async (request = new Request(), response = new Response(), next) =
 
 exports.delete = async (request = new Request(), response = new Response(), next) => {
     try {
-        await repository.de-lete(request.body._id);
+        await repository.delete(request.body._id);
         response.status(201).send({
             message: 'Deletado com sucesso!'
         });
     } catch (error) {
-        response.status(500).send(errorCatch(error));
+        response.status(500).send(await errorCatch(error));
     }
 };
 

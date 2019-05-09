@@ -22,7 +22,7 @@ exports.update = async (data) => {
 };
 
 exports.delete = async (id) => {
-    await Product.findByIdAndDelete(id);
+    await Product.findOneAndRemove(id);
 };
 
 function buildProduct(data) {
