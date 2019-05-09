@@ -1,0 +1,37 @@
+[
+    {
+        "_id": "5cd1950ea2bae80698ab2827",
+        "title": "Mouse Gamer Warrior 18 botões Preto com LED",
+        "slug": "mouse-gamer-warrior-18-botoes-preto-led",
+        "description": "Mouse Gamer Warrior 18 botões Preto com LED",
+        "price": "145.90",
+        "tags": [
+            "mouse",
+            "computador",
+            "mouse game",
+            "mouse warrior",
+            "mouse preto",
+            "mouse com led",
+            "mouse com 18 botões"
+        ],
+        "image": "imagem-default",
+        "active": true
+    },
+    {
+        "_id": "5cd1847c4f211631bcd2cd46",
+        "title": "Teclado Gamer Razer Blackwidow Preto",
+        "slug": "teclado-gamer-razer-blackwidow-preto",
+        "description": "Teclado Gamer Razer Blackwidow Preto",
+        "price": 490.15,
+        "tags": [
+            "teclado",
+            "computador",
+            "teclado game",
+            "teclado razer",
+            "teclado preto",
+            "teclado com led"
+        ],
+        "image": "imagem-default",
+        "active": true
+    }
+]
