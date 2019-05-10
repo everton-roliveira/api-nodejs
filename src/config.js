@@ -371,9 +371,16 @@ global.EMAIL_TMPL = `
 </html>
 `;
 
-module.exports = {
+if (process.env.NODE_ENV === 'production') {
+  module.exports = {
+    connectionString: 'mongodb+srv://eroberto:204039@principal-casci.mongodb.net/node_store',
+    containerConnectionString: 'TBD'
+  }
+} else {
+  module.exports = {
     connectionString: 'mongodb://localhost:27017/db_store_example',
     containerConnectionString: 'TBD'
+  }
 }
 
 // sendgridKey - para enviar email
